@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  padding: 20px;
+  background-color: gold;
+  color: black;
+  height: 100vh;
+}
+
+.page .events {
+  list-style: none;
+}
+
+.page .events li {
+  background-color: goldenrod;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.page .events li:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.modal {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.modal .close {
+  color: black;
+  background-color: white;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.modal .close:hover {
+  cursor: pointer;
+  background-color: gold;
+  font-weight: 600;
+}
+
+.modal .tickets {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.modal .tickets .seat {
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+  background-color: lightgreen;
+}
+
+.modal .tickets .reserved {
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+  background-color: dimgrey;
+}
+
+.modal .tickets .seat:hover {
+  cursor: pointer;
+  background-color: darkgreen;
+}
+
+.page .cart ul {
+  list-style: none
+}
+
+.page .cart li {
+  padding: 10px;
+  text-align: left;
+}
+
+.page .close {
+  margin-left: 20px;
+  padding: 5px 10px;
+  color: darkred;
+  cursor: pointer;
+  border: 1px solid darkred;
+}
